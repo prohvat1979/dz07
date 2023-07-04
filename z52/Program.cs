@@ -33,7 +33,7 @@ for (int i = 0; i < matrix.GetLength(1); i++)
 PrintArray(Matrix);
 
 
-// функция заполнения массива  вещественными числами
+// функция заполнения двухмерного массива вещественными числами
 void FillMatrix(int[,] array)
 {
     for (int i = 0; i < array.GetLength(0); i++)
